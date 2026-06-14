@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400&family=Ubuntu+Mono:wght@400;700&family=Ubuntu+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@source "../../../**/*.{md,vue,js,ts}";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #ECE7DE;
+  --foreground: #171717;
+  --card: #F4F0EA;
+  --card-foreground: #171717;
+  --popover: #F4F0EA;
+  --popover-foreground: #171717;
+  --primary: #2563EB;
+  --primary-foreground: #F8FAFC;
+  --secondary: #E7E0D5;
+  --secondary-foreground: #171717;
+  --muted: #E7E0D5;
+  --muted-foreground: #3F3A33;
+  --accent: #0F766E;
+  --accent-foreground: #F8FAFC;
+  --destructive: #D97706;
+  --border: #D8D1C7;
+  --input: #D8D1C7;
+  --ring: #2563EB;
+  --radius: 0.5rem;
+
+  --vp-c-bg: #ECE7DE;
+  --vp-c-bg-soft: #F3EFE7;
+  --vp-c-bg-mute: #E1D8CB;
+  --vp-c-divider: #D4CEC4;
+  --vp-c-text-1: #171717;
+  --vp-c-text-2: #3F3A33;
+  --vp-c-text-3: #695F53;
+  --vp-c-brand-1: #2563EB;
+  --vp-c-brand-2: #0F766E;
+  --vp-c-brand-soft: rgba(37, 99, 235, 0.14);
+  --vp-c-default-soft: #F3EFE7;
+}
+
+.dark {
+  --background: #030303;
+  --foreground: #F5F3EE;
+  --card: #0A0A0A;
+  --card-foreground: #F5F3EE;
+  --popover: #0A0A0A;
+  --popover-foreground: #F5F3EE;
+  --primary: #2563EB;
+  --primary-foreground: #F8FAFC;
+  --secondary: #141414;
+  --secondary-foreground: #F5F3EE;
+  --muted: #141414;
+  --muted-foreground: #D9D5CC;
+  --accent: #0F766E;
+  --accent-foreground: #F8FAFC;
+  --destructive: #D97706;
+  --border: #242424;
+  --input: #242424;
+  --ring: #60A5FA;
+
+  --vp-c-bg: #030303;
+  --vp-c-bg-soft: #0A0A0A;
+  --vp-c-bg-mute: #141414;
+  --vp-c-divider: #242424;
+  --vp-c-text-1: #F5F3EE;
+  --vp-c-text-2: #E2DED6;
+  --vp-c-text-3: #CFC9BD;
+  --vp-c-brand-1: #60A5FA;
+  --vp-c-brand-2: #2DD4BF;
+  --vp-c-brand-soft: rgba(96, 165, 250, 0.16);
+  --vp-c-default-soft: #0A0A0A;
+}
+
+html, body {
+  font-family: "Ubuntu Sans", "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+code, pre, kbd, samp {
+  font-family: "Ubuntu Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+:root {
+  font-family: "Ubuntu Sans", "Ubuntu", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+.shadcn-demo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin: 18px 0 22px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 18px;
+  background: var(--vp-c-bg-soft);
+}
+
+.shadcn-demo__content {
+  min-width: 0;
+}
+
+.shadcn-demo__eyebrow {
+  margin: 0 0 4px;
+  color: var(--vp-c-text-2);
+  font-family: "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.shadcn-demo h3 {
+  margin: 0;
+  color: var(--vp-c-text-1);
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.shadcn-demo p {
+  margin: 6px 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.shadcn-demo__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.font-specimen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+  margin: 24px 0 8px;
+}
+
+.font-specimen-card {
+  min-width: 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 18px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  overflow: hidden;
+}
+
+.font-specimen-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.font-specimen-meta span {
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.font-specimen-meta strong {
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.font-specimen-display {
+  margin: 0 0 12px;
+  color: var(--vp-c-text-1);
+  font-size: 28px;
+  font-weight: 760;
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+
+.font-specimen-purpose {
+  margin: 0 0 14px;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.font-specimen-sample {
+  margin: 0 0 14px;
+  color: var(--vp-c-text-1);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.font-specimen-weights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 14px;
+}
+
+.font-specimen-weights span {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 4px 8px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.font-specimen-weights .weight-regular {
+  font-weight: 400;
+}
+
+.font-specimen-weights .weight-medium {
+  font-weight: 500;
+}
+
+.font-specimen-weights .weight-bold {
+  font-weight: 700;
+}
+
+.font-specimen-line {
+  margin: 0;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+  line-height: 1.65;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.font-specimen-ubuntu-sans {
+  font-family: "Ubuntu Sans", "Ubuntu", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.font-specimen-ubuntu {
+  font-family: "Ubuntu", "Ubuntu Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.font-specimen-mono {
+  font-family: "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+.font-specimen-mono .font-specimen-display {
+  font-size: 23px;
+  font-weight: 650;
+}
+
+.font-specimen-data {
+  font-family: "Ubuntu Sans", "Ubuntu", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.font-specimen-data .font-specimen-display,
+.font-specimen-metric-row strong {
+  font-family: "Ubuntu Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.font-specimen-metric-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-top: 1px solid var(--vp-c-divider);
+  padding: 8px 0;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+}
+
+.font-specimen-metric-row strong {
+  color: var(--vp-c-text-1);
+  font-size: 15px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.font-specimen-wordmark {
+  font-family: "Ubuntu", "Ubuntu Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.font-specimen-wordmark-text {
+  margin: 0 0 14px;
+  color: var(--vp-c-text-1);
+  font-size: clamp(30px, 5vw, 46px);
+  font-weight: 700;
+  line-height: 0.98;
+  overflow-wrap: anywhere;
+}
+
+.font-specimen-lockup {
+  display: inline-block;
+  margin: 2px 0 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 6px 9px;
+  background: var(--vp-c-bg);
+  color: var(--vp-c-text-1);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.color-chip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  margin: 12px 0 20px;
+}
+
+.color-chip-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 12px;
+  background: var(--vp-c-bg-soft);
+}
+
+.color-chip-swatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  border-radius: 10px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.color-chip-card strong {
+  display: block;
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.color-chip-card code {
+  display: inline-block;
+  margin-top: 4px;
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+}
+
+.color-chip-card p {
+  margin: 6px 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.mode-palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 12px 0 24px;
+}
+
+.mode-palette-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  padding: 14px;
+  background: var(--vp-c-bg-soft);
+}
+
+.mode-palette-card h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+.mode-palette-card p {
+  margin: 10px 0 0;
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.mode-palette-dark {
+  background: linear-gradient(180deg, #030303 0%, #0a0a0a 100%);
+}
+
+.mode-palette-light {
+  background: linear-gradient(180deg, #ECE7DE 0%, #F4F0EA 100%);
+}
+
+.mode-palette-swatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 520px) {
+  .shadcn-demo {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .shadcn-demo__actions {
+    justify-content: flex-start;
+  }
+
+  .font-specimen-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .font-specimen-card {
+    padding: 14px;
+  }
+
+  .font-specimen-meta {
+    display: block;
+  }
+
+  .font-specimen-meta strong {
+    display: block;
+    margin-top: 4px;
+    text-align: left;
+  }
+
+  .font-specimen-display {
+    font-size: 24px;
+  }
+}
