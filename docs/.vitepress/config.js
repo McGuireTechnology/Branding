@@ -5,6 +5,9 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   title: 'McGuire Technology - Branding',
   description: 'Public branding, identity, messaging, and project reference guidance for McGuire Technology, LLC.',
+  head: [
+    ['link', { rel: 'icon', href: '/brand-assets/favicon.svg', type: 'image/svg+xml' }]
+  ],
   vite: {
     plugins: [tailwindcss()],
     resolve: {

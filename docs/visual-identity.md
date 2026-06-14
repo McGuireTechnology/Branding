@@ -38,6 +38,98 @@ Recommended mark direction:
 
 Avoid using **MT** as a primary mark. The initials are ambiguous and can be read as unrelated terms such as Mountain or Empty, which weakens recognition and makes the identity less precise. Prefer the full McGuire Technology wordmark, a single M when a compact mark is needed, or an abstract system-inspired symbol.
 
+## Core Brand Assets
+
+The current logo direction uses a routed single **M** built from four complete pipeline strokes. The mark should feel like data flow, infrastructure, observability, and operational systems without becoming a literal circuit-board icon.
+
+<section class="brand-asset-hero">
+  <img src="/brand-assets/brand-system-board.svg" alt="McGuire Technology brand system board showing logo lockups, icon variations, palette, typography, signage, and dashboard use cases">
+</section>
+
+### Logo Files
+
+<div class="asset-download-grid">
+  <article class="asset-download-card asset-download-card-dark">
+    <img src="/brand-assets/logo-lockup-dark.svg" alt="McGuire Technology horizontal logo lockup on black">
+    <strong>Primary lockup / dark</strong>
+    <p>Use on black or dark panel surfaces.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/logo-lockup-dark.svg">SVG</a>
+      <a href="/brand-assets/logo-lockup-dark.png">PNG</a>
+    </div>
+  </article>
+  <article class="asset-download-card">
+    <img src="/brand-assets/logo-lockup-light.svg" alt="McGuire Technology horizontal logo lockup on warm light background">
+    <strong>Primary lockup / light</strong>
+    <p>Use on warm light surfaces and documentation backgrounds.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/logo-lockup-light.svg">SVG</a>
+      <a href="/brand-assets/logo-lockup-light.png">PNG</a>
+    </div>
+  </article>
+  <article class="asset-download-card">
+    <img src="/brand-assets/logo-mark.svg" alt="McGuire Technology routed M mark">
+    <strong>Standalone mark</strong>
+    <p>Use when the name is already nearby or space is constrained.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/logo-mark.svg">SVG</a>
+      <a href="/brand-assets/logo-mark.png">PNG</a>
+    </div>
+  </article>
+  <article class="asset-download-card">
+    <img src="/brand-assets/app-icon.svg" alt="McGuire Technology app icon">
+    <strong>App icon</strong>
+    <p>Use for product shells, documentation favicons, and compact launch surfaces.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/app-icon.svg">SVG</a>
+      <a href="/brand-assets/app-icon.png">PNG</a>
+    </div>
+  </article>
+  <article class="asset-download-card">
+    <img src="/brand-assets/logo-mark-one-color.svg" alt="McGuire Technology one-color routed M mark">
+    <strong>One-color mark</strong>
+    <p>Use for engraving, single-color documents, stamps, and low-color contexts.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/logo-mark-one-color.svg">SVG</a>
+      <a href="/brand-assets/logo-mark-one-color.png">PNG</a>
+    </div>
+  </article>
+  <article class="asset-download-card">
+    <img src="/brand-assets/logo-mark-reversed.svg" alt="McGuire Technology reversed one-color routed M mark">
+    <strong>Reversed mark</strong>
+    <p>Use as a compact white mark on black or deep slate backgrounds.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/logo-mark-reversed.svg">SVG</a>
+      <a href="/brand-assets/logo-mark-reversed.png">PNG</a>
+    </div>
+  </article>
+</div>
+
+### Application Examples
+
+<div class="brand-use-case-grid">
+  <article>
+    <img src="/brand-assets/use-case-dashboard.svg" alt="McGuire Technology operational dashboard application example">
+    <strong>Operational dashboard</strong>
+    <p>Dark product surfaces should use the mark as a quiet system identifier, with blue and cyan reserved for active data flow and selected states.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/use-case-dashboard.svg">SVG</a>
+      <a href="/brand-assets/use-case-dashboard.png">PNG</a>
+    </div>
+  </article>
+  <article>
+    <img src="/brand-assets/use-case-signage.svg" alt="McGuire Technology wall signage application example">
+    <strong>Architectural signage</strong>
+    <p>Physical and large-format uses should preserve the full four-stroke mark, strong spacing, and high-contrast wordmark treatment.</p>
+    <div class="asset-download-links">
+      <a href="/brand-assets/use-case-signage.svg">SVG</a>
+      <a href="/brand-assets/use-case-signage.png">PNG</a>
+    </div>
+  </article>
+</div>
+
+Use SVG whenever possible. PNG versions are included for tools that cannot consume vector assets.
+
 ## Color
 
 ### Primary palette
