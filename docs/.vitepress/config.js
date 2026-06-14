@@ -21,7 +21,8 @@ export default defineConfig({
       { text: 'Branding', link: '/' },
       { text: 'Messaging', link: '/messaging' },
       { text: 'Visual Identity', link: '/visual-identity' },
-      { text: 'Project Reference', link: '/project-reference' }
+      { text: 'Project Reference', link: '/project-reference' },
+      { text: 'Changelog', link: '/changelog' }
     ],
     sidebar: [
       {
@@ -30,7 +31,8 @@ export default defineConfig({
           { text: 'Overview', link: '/' },
           { text: 'Messaging', link: '/messaging' },
           { text: 'Visual Identity', link: '/visual-identity' },
-          { text: 'Project Reference', link: '/project-reference' }
+          { text: 'Project Reference', link: '/project-reference' },
+          { text: 'Changelog', link: '/changelog' }
         ]
       }
     ],
