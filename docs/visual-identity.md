@@ -134,88 +134,194 @@ Use SVG whenever possible. PNG versions are included for tools that cannot consu
 
 ### Primary palette
 
-The base palette now works as two balanced variants: a dark-mode foundation and a light-mode foundation. These are the default surfaces the rest of the system should align to.
+The base palette works as Missouri-rooted foundations: black flint, basalt bedrock, limestone bluffs, and bluff sand. These are the default surfaces the rest of the system should align to.
 
 <div class="color-chip-grid">
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#030303; color:#F5F3EE;">McGuire Technology</span>
-    <strong>Black</strong>
+    <span class="color-chip-swatch" style="background-color:#030303; color:#F5F3EE;">Midnight Flint</span>
+    <strong>Midnight Flint</strong>
     <code>#030303</code>
-    <p>Dark mode base and shell background</p>
+    <p>The dark chert and flint found beneath Missouri soil. A foundation of strength and permanence.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#0A0A0A; color:#F5F3EE;">McGuire Technology</span>
-    <strong>Dark Panel</strong>
+    <span class="color-chip-swatch" style="background-color:#0A0A0A; color:#F5F3EE;">Basalt</span>
+    <strong>Basalt</strong>
     <code>#0A0A0A</code>
-    <p>Elevated dark surfaces and cards</p>
+    <p>Inspired by bedrock and stone. The reliable layer supporting systems and infrastructure.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#ECE7DE; color:#171717;">McGuire Technology</span>
-    <strong>Gray-Beige</strong>
+    <span class="color-chip-swatch" style="background-color:#ECE7DE; color:#171717;">Limestone</span>
+    <strong>Limestone</strong>
     <code>#ECE7DE</code>
-    <p>Light mode base and calm page backgrounds</p>
+    <p>Missouri's limestone bluffs and caves. Bright, durable, and timeless.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#F4F0EA; color:#171717;">McGuire Technology</span>
-    <strong>Warm Panel</strong>
+    <span class="color-chip-swatch" style="background-color:#F4F0EA; color:#171717;">Bluff Sand</span>
+    <strong>Bluff Sand</strong>
     <code>#F4F0EA</code>
-    <p>Light mode panels, cards, and soft surfaces</p>
-  </article>
-  <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#334155; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Slate</strong>
-    <code>#334155</code>
-    <p>Secondary text, nav, structural UI</p>
-  </article>
-  <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#64748B; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Steel</strong>
-    <code>#64748B</code>
-    <p>Muted text, borders, metadata</p>
+    <p>The pale soils and weathered stone of Ozark bluffs. Warm, approachable surfaces.</p>
   </article>
 </div>
 
 ### Accent palette
 
-Use a small semantic set of accent colors for meaning, not for decoration. The palette below is inspired by Bootstrap-style states: primary, success, warning, danger, and informational cues.
+Use a semantic accent set for meaning, not decoration. The accent colors should feel vivid on dark foundations and disciplined in light documentation surfaces.
 
-<div class="color-chip-grid">
+<div class="color-chip-grid color-chip-grid-compact">
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#2563EB; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Primary Blue</strong>
+    <span class="color-chip-swatch" style="background-color:#2563EB; color:#F8FAFC;">Current Blue</span>
+    <strong>Current Blue</strong>
     <code>#2563EB</code>
-    <p>Primary actions, links, selected states</p>
+    <p>The powerful currents of the Missouri and Mississippi Rivers. Primary actions, links, movement, and selected states.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#0F766E; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Success Teal</strong>
-    <code>#0F766E</code>
-    <p>Completed work, healthy systems, trust cues</p>
+    <span class="color-chip-swatch" style="background-color:#16A34A; color:#F8FAFC;">Ozark Green</span>
+    <strong>Ozark Green</strong>
+    <code>#16A34A</code>
+    <p>Missouri forests and conservation land. Success states, healthy systems, growth, and resilience.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#D97706; color:#111827;">McGuire Technology</span>
-    <strong>Warning Amber</strong>
-    <code>#D97706</code>
-    <p>Warnings, attention, review states</p>
+    <span class="color-chip-swatch" style="background-color:#F59E0B; color:#111827;">Golden Hour</span>
+    <strong>Golden Hour</strong>
+    <code>#F59E0B</code>
+    <p>River valleys at sunrise and sunset. Warnings, cautions, threshold notices, and important information.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#DC2626; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Danger Red</strong>
-    <code>#DC2626</code>
-    <p>Errors, removal, unsafe or critical actions</p>
+    <span class="color-chip-swatch" style="background-color:#EF4444; color:#F8FAFC;">Cardinal Red</span>
+    <strong>Cardinal Red</strong>
+    <code>#EF4444</code>
+    <p>Missouri's state bird. Critical alerts, security threats, destructive actions, and urgent states.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#0EA5E9; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Info Cyan</strong>
+    <span class="color-chip-swatch" style="background-color:#0EA5E9; color:#F8FAFC;">Confluence Blue</span>
+    <strong>Confluence Blue</strong>
     <code>#0EA5E9</code>
-    <p>Informational highlights, neutral guidance</p>
+    <p>Where rivers and systems meet. Informational messages, orchestration, integration, and secondary actions.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#7C5A46; color:#F8FAFC;">McGuire Technology</span>
-    <strong>River Clay</strong>
-    <code>#7C5A46</code>
-    <p>Optional warmth for softer contextual accents</p>
+    <span class="color-chip-swatch" style="background-color:#A16207; color:#F8FAFC;">Osage Clay</span>
+    <strong>Osage Clay</strong>
+    <code>#A16207</code>
+    <p>The rich earth of Missouri riverbanks and farmland. Context, heritage, grounding, and metadata.</p>
   </article>
+  <article class="color-chip-card">
+    <span class="color-chip-swatch" style="background-color:#C2410C; color:#F8FAFC;">Forged Copper</span>
+    <strong>Forged Copper</strong>
+    <code>#C2410C</code>
+    <p>Craftsmanship, industry, and enduring infrastructure. Premium features, achievements, and milestones.</p>
+  </article>
+</div>
+
+### The story behind the colors
+
+<div class="palette-story-grid">
+  <article class="palette-story-card story-flint"><strong>Midnight Flint</strong><p>Deep, enduring, and unseen. Use for the foundation of serious systems.</p></article>
+  <article class="palette-story-card story-basalt"><strong>Basalt</strong><p>Solid and reliable. The bedrock your business can depend on.</p></article>
+  <article class="palette-story-card story-limestone"><strong>Limestone</strong><p>Naturally strong and built to last, carved over time by what matters.</p></article>
+  <article class="palette-story-card story-sand"><strong>Bluff Sand</strong><p>Warm, calm, and approachable. A surface built for focus and clarity.</p></article>
+  <article class="palette-story-card story-current"><strong>Current Blue</strong><p>Always moving forward. Driving action and creating connection.</p></article>
+  <article class="palette-story-card story-ozark"><strong>Ozark Green</strong><p>Healthy systems grow strong together.</p></article>
+  <article class="palette-story-card story-golden"><strong>Golden Hour</strong><p>Clarity in important moments. Insight that helps you decide with confidence.</p></article>
+  <article class="palette-story-card story-cardinal"><strong>Cardinal Red</strong><p>When it matters most, help people act fast and protect what they have built.</p></article>
+  <article class="palette-story-card story-confluence"><strong>Confluence Blue</strong><p>Bringing systems together and turning complex flows into simple outcomes.</p></article>
+  <article class="palette-story-card story-copper"><strong>Forged Copper</strong><p>Excellence is crafted, not given. Celebrate milestones and build the future.</p></article>
+</div>
+
+### Semantic usage guide
+
+<div class="semantic-usage-card">
+  <table>
+    <thead>
+      <tr>
+        <th>Purpose</th>
+        <th>Color</th>
+        <th>When to use</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Primary actions / links</td><td><span class="usage-dot" style="background:#2563EB"></span>Current Blue</td><td>Calls to action, links, primary navigation</td></tr>
+      <tr><td>Success / healthy</td><td><span class="usage-dot" style="background:#16A34A"></span>Ozark Green</td><td>Completed tasks, healthy systems, positive change</td></tr>
+      <tr><td>Warnings / cautions</td><td><span class="usage-dot" style="background:#F59E0B"></span>Golden Hour</td><td>Warnings, threshold notices, review states</td></tr>
+      <tr><td>Critical / errors</td><td><span class="usage-dot" style="background:#EF4444"></span>Cardinal Red</td><td>Errors, security threats, destructive actions</td></tr>
+      <tr><td>Informational</td><td><span class="usage-dot" style="background:#0EA5E9"></span>Confluence Blue</td><td>Informational messages and secondary actions</td></tr>
+      <tr><td>Heritage / context</td><td><span class="usage-dot" style="background:#A16207"></span>Osage Clay</td><td>Context, environment, metadata, subtle accents</td></tr>
+      <tr><td>Premium / special</td><td><span class="usage-dot" style="background:#C2410C"></span>Forged Copper</td><td>Premium features, achievements, milestones</td></tr>
+    </tbody>
+  </table>
+</div>
+
+### Product UI examples
+
+<div class="palette-ui-grid">
+  <section class="palette-ui-panel">
+    <h3>UI component examples</h3>
+    <div class="palette-button-stack">
+      <button class="palette-button" style="--button-color:#2563EB;">Primary Button</button>
+      <button class="palette-button" style="--button-color:#16A34A;">Success Button</button>
+      <button class="palette-button palette-button-dark-text" style="--button-color:#F59E0B;">Warning Button</button>
+      <button class="palette-button" style="--button-color:#EF4444;">Danger Button</button>
+      <button class="palette-button palette-button-outline" style="--button-color:#0EA5E9;">Info Button</button>
+      <button class="palette-button" style="--button-color:#A16207;">Secondary Button</button>
+    </div>
+  </section>
+
+  <section class="palette-ui-panel">
+    <h3>Status examples</h3>
+    <div class="status-example status-success"><strong>Update Successful</strong><span>All systems operational.</span></div>
+    <div class="status-example status-warning"><strong>Threshold Approaching</strong><span>Disk usage is at 85%. Review recommended.</span></div>
+    <div class="status-example status-danger"><strong>Security Alert</strong><span>Multiple failed login attempts detected.</span></div>
+    <div class="status-example status-info"><strong>Deployment Complete</strong><span>New version deployed successfully.</span></div>
+  </section>
+
+  <section class="palette-ui-panel palette-chart-panel">
+    <h3>Data visualization example</h3>
+    <div class="chart-legend">
+      <span><i style="background:#16A34A"></i>Operations</span>
+      <span><i style="background:#F59E0B"></i>Alerts</span>
+      <span><i style="background:#EF4444"></i>Errors</span>
+      <span><i style="background:#0EA5E9"></i>Automations</span>
+      <span><i style="background:#A16207"></i>Other</span>
+    </div>
+    <div class="mini-chart" aria-label="Example line chart using the accent palette">
+      <svg viewBox="0 0 420 190" role="img">
+        <path class="grid-line" d="M36 20H400M36 70H400M36 120H400M36 170H400M36 20V170M126 20V170M216 20V170M306 20V170M396 20V170" />
+        <polyline class="chart-line" style="--line:#16A34A" points="36,124 66,108 96,114 126,88 156,98 186,62 216,76 246,52 276,64 306,46 336,38 366,50 396,28" />
+        <polyline class="chart-line" style="--line:#F59E0B" points="36,140 66,132 96,135 126,120 156,118 186,102 216,98 246,88 276,94 306,82 336,78 366,72 396,54" />
+        <polyline class="chart-line" style="--line:#EF4444" points="36,158 66,144 96,150 126,146 156,152 186,148 216,142 246,132 276,136 306,116 336,124 366,112 396,106" />
+        <polyline class="chart-line" style="--line:#0EA5E9" points="36,136 66,126 96,132 126,124 156,112 186,106 216,108 246,96 276,102 306,92 336,88 366,84 396,76" />
+        <polyline class="chart-line" style="--line:#A16207" points="36,160 66,154 96,150 126,148 156,144 186,140 216,132 246,130 276,122 306,118 336,104 366,98 396,90" />
+      </svg>
+    </div>
+  </section>
+</div>
+
+### Color harmony and accessibility
+
+<div class="palette-harmony-grid">
+  <section class="palette-harmony-card">
+    <h3>Color harmony</h3>
+    <div class="harmony-strip">
+      <span style="background:#2563EB"></span>
+      <span style="background:#16A34A"></span>
+      <span style="background:#F59E0B"></span>
+      <span style="background:#EF4444"></span>
+      <span style="background:#0EA5E9"></span>
+      <span style="background:#A16207"></span>
+      <span style="background:#C2410C"></span>
+    </div>
+    <div class="neutral-strip">
+      <span style="background:#030303"></span>
+      <span style="background:#0A0A0A"></span>
+      <span style="background:#242424"></span>
+      <span style="background:#D8D1C7"></span>
+      <span style="background:#ECE7DE"></span>
+      <span style="background:#F4F0EA"></span>
+    </div>
+  </section>
+  <section class="palette-accessibility-card">
+    <strong>AA</strong>
+    <p>Color combinations should meet WCAG 2.2 AA contrast standards for readability and accessibility. Do not rely on color alone to communicate state.</p>
+  </section>
 </div>
 
 ### Light / Dark mode palette
@@ -225,19 +331,19 @@ The palette should work cleanly in both dark and light interfaces. Dark mode use
 <div class="mode-palette-grid">
   <article class="mode-palette-card mode-palette-dark">
     <h3>Dark mode</h3>
-    <div class="mode-palette-swatch" style="background-color:#030303; color:#F5F3EE;">Black</div>
-    <div class="mode-palette-swatch" style="background-color:#0A0A0A; color:#F5F3EE;">Panel</div>
-    <div class="mode-palette-swatch" style="background-color:#2563EB; color:#F8FAFC;">Signal Blue</div>
-    <div class="mode-palette-swatch" style="background-color:#0F766E; color:#F8FAFC;">Teal</div>
+    <div class="mode-palette-swatch" style="background-color:#030303; color:#F5F3EE;">Midnight Flint</div>
+    <div class="mode-palette-swatch" style="background-color:#0A0A0A; color:#F5F3EE;">Basalt</div>
+    <div class="mode-palette-swatch" style="background-color:#2563EB; color:#F8FAFC;">Current Blue</div>
+    <div class="mode-palette-swatch" style="background-color:#16A34A; color:#F8FAFC;">Ozark Green</div>
     <p>Use for dashboards, terminal-heavy systems, documentation shells, and high-contrast app surfaces.</p>
   </article>
 
   <article class="mode-palette-card mode-palette-light">
     <h3>Light mode</h3>
-    <div class="mode-palette-swatch" style="background-color:#ECE7DE; color:#171717;">Gray-Beige</div>
-    <div class="mode-palette-swatch" style="background-color:#F4F0EA; color:#171717;">Panel</div>
-    <div class="mode-palette-swatch" style="background-color:#2563EB; color:#F8FAFC;">Signal Blue</div>
-    <div class="mode-palette-swatch" style="background-color:#0F766E; color:#F8FAFC;">Teal</div>
+    <div class="mode-palette-swatch" style="background-color:#ECE7DE; color:#171717;">Limestone</div>
+    <div class="mode-palette-swatch" style="background-color:#F4F0EA; color:#171717;">Bluff Sand</div>
+    <div class="mode-palette-swatch" style="background-color:#2563EB; color:#F8FAFC;">Current Blue</div>
+    <div class="mode-palette-swatch" style="background-color:#16A34A; color:#F8FAFC;">Ozark Green</div>
     <p>Use for docs, proposals, open web surfaces, and interfaces that need a calmer, high-legibility baseline.</p>
   </article>
 </div>

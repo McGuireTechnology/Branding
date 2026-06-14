@@ -3,8 +3,8 @@ import tailwindcss from '@tailwindcss/vite'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  title: 'McGuire Technology - Branding',
-  description: 'Public branding, identity, messaging, and project reference guidance for McGuire Technology, LLC.',
+  title: 'McGuire Technology - Brand Identity',
+  description: 'Brand identity, visual system, messaging, and project reference guidance for McGuire Technology, LLC.',
   head: [
     ['link', { rel: 'icon', href: '/brand-assets/favicon.svg', type: 'image/svg+xml' }]
   ],
@@ -17,8 +17,9 @@ export default defineConfig({
     }
   },
   themeConfig: {
+    logo: '/brand-assets/favicon.svg',
     nav: [
-      { text: 'Branding', link: '/' },
+      { text: 'Identity', link: '/' },
       { text: 'Messaging', link: '/messaging' },
       { text: 'Visual Identity', link: '/visual-identity' },
       { text: 'Project Reference', link: '/project-reference' },

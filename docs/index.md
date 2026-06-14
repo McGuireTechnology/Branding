@@ -1,4 +1,9 @@
-# McGuire Technology - Branding
+---
+aside: false
+sidebar: false
+---
+
+<BrandShowcase />
 
 This site is the public branding reference for McGuire Technology™. It defines how the brand should look, sound, and be referenced across public sites, project documentation, proposals, products, and internal tools.
 
@@ -142,79 +147,108 @@ Supporting options:
 
 ## Color Palette
 
-### Primary colors
+Modern technology. Midwest roots. The palette is inspired by Missouri's rivers, forests, limestone bluffs, working soil, and practical craft.
+
+### Foundations
 
 <div class="color-chip-grid">
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#030303; color:#F5F3EE;">McGuire Technology</span>
-    <strong>Black</strong>
+    <span class="color-chip-swatch" style="background-color:#030303; color:#F5F3EE;">Midnight Flint</span>
+    <strong>Midnight Flint</strong>
     <code>#030303</code>
-    <p>Dark mode base and shell surfaces</p>
+    <p>The dark chert and flint found beneath Missouri soil. A foundation of strength and permanence.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#0A0A0A; color:#F5F3EE;">McGuire Technology</span>
-    <strong>Dark Panel</strong>
+    <span class="color-chip-swatch" style="background-color:#0A0A0A; color:#F5F3EE;">Basalt</span>
+    <strong>Basalt</strong>
     <code>#0A0A0A</code>
-    <p>Elevated dark cards and panels</p>
+    <p>Inspired by bedrock and stone. The reliable layer supporting systems and infrastructure.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#ECE7DE; color:#171717;">McGuire Technology</span>
-    <strong>Gray-Beige</strong>
+    <span class="color-chip-swatch" style="background-color:#ECE7DE; color:#171717;">Limestone</span>
+    <strong>Limestone</strong>
     <code>#ECE7DE</code>
-    <p>Light mode base and calm page backgrounds</p>
+    <p>Missouri's limestone bluffs and caves. Bright, durable, and timeless.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#F4F0EA; color:#171717;">McGuire Technology</span>
-    <strong>Warm Panel</strong>
+    <span class="color-chip-swatch" style="background-color:#F4F0EA; color:#171717;">Bluff Sand</span>
+    <strong>Bluff Sand</strong>
     <code>#F4F0EA</code>
-    <p>Light mode panels and soft surfaces</p>
+    <p>The pale soils and weathered stone of Ozark bluffs. Warm, approachable surfaces.</p>
   </article>
 </div>
 
-### Accent colors
+### Accent Colors
 
-Use a compact semantic accent set inspired by Bootstrap states: primary, success, warning, danger, and information.
-
-<div class="color-chip-grid">
+<div class="color-chip-grid color-chip-grid-compact">
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#2563EB; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Primary Blue</strong>
+    <span class="color-chip-swatch" style="background-color:#2563EB; color:#F8FAFC;">Current Blue</span>
+    <strong>Current Blue</strong>
     <code>#2563EB</code>
-    <p>Primary actions, active states, links</p>
+    <p>The powerful currents of the Missouri and Mississippi Rivers. Primary actions, links, movement, and selected states.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#0F766E; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Success Teal</strong>
-    <code>#0F766E</code>
-    <p>System health, trust, success states</p>
+    <span class="color-chip-swatch" style="background-color:#16A34A; color:#F8FAFC;">Ozark Green</span>
+    <strong>Ozark Green</strong>
+    <code>#16A34A</code>
+    <p>Missouri forests and conservation land. Success states, healthy systems, growth, and resilience.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#D97706; color:#111827;">McGuire Technology</span>
-    <strong>Warning Amber</strong>
-    <code>#D97706</code>
-    <p>Attention, warnings, highlights</p>
+    <span class="color-chip-swatch" style="background-color:#F59E0B; color:#111827;">Golden Hour</span>
+    <strong>Golden Hour</strong>
+    <code>#F59E0B</code>
+    <p>River valleys at sunrise and sunset. Warnings, cautions, and important information.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#DC2626; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Danger Red</strong>
-    <code>#DC2626</code>
-    <p>Errors, critical actions, removal states</p>
+    <span class="color-chip-swatch" style="background-color:#EF4444; color:#F8FAFC;">Cardinal Red</span>
+    <strong>Cardinal Red</strong>
+    <code>#EF4444</code>
+    <p>Missouri's state bird. Critical alerts, security threats, destructive actions, and urgent states.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#0EA5E9; color:#F8FAFC;">McGuire Technology</span>
-    <strong>Info Cyan</strong>
+    <span class="color-chip-swatch" style="background-color:#0EA5E9; color:#F8FAFC;">Confluence Blue</span>
+    <strong>Confluence Blue</strong>
     <code>#0EA5E9</code>
-    <p>Informational guidance and neutral emphasis</p>
+    <p>Where rivers and systems meet. Informational messages, orchestration, and secondary actions.</p>
   </article>
   <article class="color-chip-card">
-    <span class="color-chip-swatch" style="background-color:#7C5A46; color:#F8FAFC;">McGuire Technology</span>
-    <strong>River Clay</strong>
-    <code>#7C5A46</code>
-    <p>Optional warmth for softer contextual accents</p>
+    <span class="color-chip-swatch" style="background-color:#A16207; color:#F8FAFC;">Osage Clay</span>
+    <strong>Osage Clay</strong>
+    <code>#A16207</code>
+    <p>The rich earth of Missouri riverbanks and farmland. Context, heritage, grounding, and metadata.</p>
+  </article>
+  <article class="color-chip-card">
+    <span class="color-chip-swatch" style="background-color:#C2410C; color:#F8FAFC;">Forged Copper</span>
+    <strong>Forged Copper</strong>
+    <code>#C2410C</code>
+    <p>Craftsmanship, industry, and enduring infrastructure. Premium features, achievements, and milestones.</p>
   </article>
 </div>
 
-Use accent colors intentionally. The brand should not become a one-color blue interface or a loud rainbow system.
+### Semantic Usage Guide
+
+<div class="semantic-usage-card">
+  <table>
+    <thead>
+      <tr>
+        <th>Purpose</th>
+        <th>Color</th>
+        <th>When to use</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Primary actions / links</td><td><span class="usage-dot" style="background:#2563EB"></span>Current Blue</td><td>Calls to action, links, primary navigation</td></tr>
+      <tr><td>Success / healthy</td><td><span class="usage-dot" style="background:#16A34A"></span>Ozark Green</td><td>Completed tasks, healthy systems, positive change</td></tr>
+      <tr><td>Warnings / cautions</td><td><span class="usage-dot" style="background:#F59E0B"></span>Golden Hour</td><td>Warnings, threshold notices, review states</td></tr>
+      <tr><td>Critical / errors</td><td><span class="usage-dot" style="background:#EF4444"></span>Cardinal Red</td><td>Errors, security threats, destructive actions</td></tr>
+      <tr><td>Informational</td><td><span class="usage-dot" style="background:#0EA5E9"></span>Confluence Blue</td><td>Informational messages and secondary actions</td></tr>
+      <tr><td>Heritage / context</td><td><span class="usage-dot" style="background:#A16207"></span>Osage Clay</td><td>Context, environment, metadata, subtle accents</td></tr>
+      <tr><td>Premium / special</td><td><span class="usage-dot" style="background:#C2410C"></span>Forged Copper</td><td>Premium features, achievements, milestones</td></tr>
+    </tbody>
+  </table>
+</div>
+
+Use accent colors intentionally. The brand should feel like technology that flows and partnerships that last, not a one-color blue interface or a loud rainbow system.
 
 ## Typography
 

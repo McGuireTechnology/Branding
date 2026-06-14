@@ -1,5 +1,25 @@
 # Changelog
 
+## 26.6.2 - 2026-06-14
+
+### Added
+
+- Added a branded homepage showcase for the McGuire Technology identity site.
+- Added Missouri-rooted palette guidance with foundations, accent colors, semantic usage, UI examples, data visualization guidance, harmony, and accessibility notes.
+- Added a reusable VitePress `BrandShowcase` component for the public brand identity landing experience.
+
+### Changed
+
+- Reworked the VitePress site title, navigation, homepage chrome, and theme styling to present the site as a brand identity showcase.
+- Updated logo, favicon, app icon, lockup, brand board, dashboard, and signage assets to use the updated color palette.
+- Updated the public overview and Visual Identity pages with the new color names, phrasing, and practical usage guidance.
+- Regenerated PNG brand assets from the updated SVG sources.
+
+### Verified
+
+- Confirmed the VitePress production build completes successfully.
+- Checked desktop and mobile homepage renders, including a 390px mobile viewport with no page-level horizontal overflow.
+
 ## 26.6.1 - 2026-06-14
 
 ### Added
